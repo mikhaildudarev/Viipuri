@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B153F25226DE847F00A0B86F /* SimpleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F25126DE847F00A0B86F /* SimpleAppApp.swift */; };
+		B153F25226DE847F00A0B86F /* SimpleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F25126DE847F00A0B86F /* SimpleApp.swift */; };
 		B153F25426DE847F00A0B86F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F25326DE847F00A0B86F /* ContentView.swift */; };
 		B153F25626DE848100A0B86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B153F25526DE848100A0B86F /* Assets.xcassets */; };
 		B153F25926DE848100A0B86F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B153F25826DE848100A0B86F /* Preview Assets.xcassets */; };
 		B153F26426DE848100A0B86F /* SimpleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F26326DE848100A0B86F /* SimpleAppTests.swift */; };
 		B153F26F26DE848100A0B86F /* SimpleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F26E26DE848100A0B86F /* SimpleAppUITests.swift */; };
+		B153F27D26DEAB8800A0B86F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F27C26DEAB8800A0B86F /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		B153F24E26DE847F00A0B86F /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B153F25126DE847F00A0B86F /* SimpleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAppApp.swift; sourceTree = "<group>"; };
+		B153F25126DE847F00A0B86F /* SimpleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleApp.swift; sourceTree = "<group>"; };
 		B153F25326DE847F00A0B86F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B153F25526DE848100A0B86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B153F25826DE848100A0B86F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		B153F26A26DE848100A0B86F /* SimpleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B153F26E26DE848100A0B86F /* SimpleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAppUITests.swift; sourceTree = "<group>"; };
 		B153F27026DE848100A0B86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B153F27C26DEAB8800A0B86F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +97,12 @@
 		B153F25026DE847F00A0B86F /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
-				B153F25126DE847F00A0B86F /* SimpleAppApp.swift */,
+				B153F25126DE847F00A0B86F /* SimpleApp.swift */,
 				B153F25326DE847F00A0B86F /* ContentView.swift */,
 				B153F25526DE848100A0B86F /* Assets.xcassets */,
 				B153F25A26DE848100A0B86F /* Info.plist */,
 				B153F25726DE848100A0B86F /* Preview Content */,
+				B153F27C26DEAB8800A0B86F /* ViewModel.swift */,
 			);
 			path = SimpleApp;
 			sourceTree = "<group>";
@@ -260,7 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B153F25426DE847F00A0B86F /* ContentView.swift in Sources */,
-				B153F25226DE847F00A0B86F /* SimpleAppApp.swift in Sources */,
+				B153F27D26DEAB8800A0B86F /* ViewModel.swift in Sources */,
+				B153F25226DE847F00A0B86F /* SimpleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

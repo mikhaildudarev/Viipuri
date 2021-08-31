@@ -1,5 +1,5 @@
 //
-//  SimpleAppApp.swift
+//  SimpleApp.swift
 //  SimpleApp
 //
 //  Created by Mikhail Dudarev on 31.08.2021.
