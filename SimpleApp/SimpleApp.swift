@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
-struct SimpleAppApp: App {
+struct SimpleApp: App {
+    @StateObject var viewModel = AppViewModel(
+        downloder: LocationsFetcherImpl(),
+        imageProvider: ImageProviderImpl(imageCache: ImageCacheImpl()))
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
+                .onAppear { viewModel.updateLocations() }
         }
     }
 }

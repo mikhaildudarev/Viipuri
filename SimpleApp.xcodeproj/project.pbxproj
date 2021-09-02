@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11BB42B26E0F67800290F8C /* LocationsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BB42A26E0F67800290F8C /* LocationsFetcher.swift */; };
+		B11BB42E26E10D5B00290F8C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BB42D26E10D5B00290F8C /* Location.swift */; };
+		B14D277D26E1301700242AEF /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D277C26E1301700242AEF /* LocationsList.swift */; };
+		B14D278226E1377500242AEF /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D278126E1377500242AEF /* LocationCell.swift */; };
+		B14D278526E1430100242AEF /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D278426E1430100242AEF /* ImageProvider.swift */; };
 		B153F25226DE847F00A0B86F /* SimpleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F25126DE847F00A0B86F /* SimpleApp.swift */; };
 		B153F25426DE847F00A0B86F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F25326DE847F00A0B86F /* ContentView.swift */; };
 		B153F25626DE848100A0B86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B153F25526DE848100A0B86F /* Assets.xcassets */; };
@@ -14,6 +19,8 @@
 		B153F26426DE848100A0B86F /* SimpleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F26326DE848100A0B86F /* SimpleAppTests.swift */; };
 		B153F26F26DE848100A0B86F /* SimpleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F26E26DE848100A0B86F /* SimpleAppUITests.swift */; };
 		B153F27D26DEAB8800A0B86F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F27C26DEAB8800A0B86F /* ViewModel.swift */; };
+		B18946EB26E14B650092ECF7 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18946EA26E14B650092ECF7 /* ViewModelTests.swift */; };
+		B18946ED26E168CE0092ECF7 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18946EC26E168CE0092ECF7 /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B11BB42A26E0F67800290F8C /* LocationsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsFetcher.swift; sourceTree = "<group>"; };
+		B11BB42D26E10D5B00290F8C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B14D277C26E1301700242AEF /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
+		B14D278126E1377500242AEF /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		B14D278426E1430100242AEF /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
 		B153F24E26DE847F00A0B86F /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B153F25126DE847F00A0B86F /* SimpleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleApp.swift; sourceTree = "<group>"; };
 		B153F25326DE847F00A0B86F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		B153F26E26DE848100A0B86F /* SimpleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAppUITests.swift; sourceTree = "<group>"; };
 		B153F27026DE848100A0B86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B153F27C26DEAB8800A0B86F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B18946EA26E14B650092ECF7 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		B18946EC26E168CE0092ECF7 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B11BB42926E0F5EA00290F8C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B11BB42A26E0F67800290F8C /* LocationsFetcher.swift */,
+				B14D278426E1430100242AEF /* ImageProvider.swift */,
+				B18946EC26E168CE0092ECF7 /* ImageCache.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B11BB42C26E10D4C00290F8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B11BB42D26E10D5B00290F8C /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B153F24526DE847F00A0B86F = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +130,13 @@
 			isa = PBXGroup;
 			children = (
 				B153F25126DE847F00A0B86F /* SimpleApp.swift */,
-				B153F25326DE847F00A0B86F /* ContentView.swift */,
+				B153F27E26DEABCC00A0B86F /* Views */,
+				B153F27F26DEABDB00A0B86F /* ViewModels */,
+				B11BB42C26E10D4C00290F8C /* Models */,
+				B11BB42926E0F5EA00290F8C /* Services */,
 				B153F25526DE848100A0B86F /* Assets.xcassets */,
 				B153F25A26DE848100A0B86F /* Info.plist */,
 				B153F25726DE848100A0B86F /* Preview Content */,
-				B153F27C26DEAB8800A0B86F /* ViewModel.swift */,
 			);
 			path = SimpleApp;
 			sourceTree = "<group>";
@@ -119,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				B153F26326DE848100A0B86F /* SimpleAppTests.swift */,
+				B18946EA26E14B650092ECF7 /* ViewModelTests.swift */,
 				B153F26526DE848100A0B86F /* Info.plist */,
 			);
 			path = SimpleAppTests;
@@ -131,6 +166,24 @@
 				B153F27026DE848100A0B86F /* Info.plist */,
 			);
 			path = SimpleAppUITests;
+			sourceTree = "<group>";
+		};
+		B153F27E26DEABCC00A0B86F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B153F25326DE847F00A0B86F /* ContentView.swift */,
+				B14D277C26E1301700242AEF /* LocationsList.swift */,
+				B14D278126E1377500242AEF /* LocationCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B153F27F26DEABDB00A0B86F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B153F27C26DEAB8800A0B86F /* ViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14D277D26E1301700242AEF /* LocationsList.swift in Sources */,
 				B153F25426DE847F00A0B86F /* ContentView.swift in Sources */,
 				B153F27D26DEAB8800A0B86F /* ViewModel.swift in Sources */,
+				B18946ED26E168CE0092ECF7 /* ImageCache.swift in Sources */,
+				B11BB42E26E10D5B00290F8C /* Location.swift in Sources */,
+				B14D278526E1430100242AEF /* ImageProvider.swift in Sources */,
+				B14D278226E1377500242AEF /* LocationCell.swift in Sources */,
+				B11BB42B26E0F67800290F8C /* LocationsFetcher.swift in Sources */,
 				B153F25226DE847F00A0B86F /* SimpleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18946EB26E14B650092ECF7 /* ViewModelTests.swift in Sources */,
 				B153F26426DE848100A0B86F /* SimpleAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,8 +481,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X7GLF7Z6BV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SimpleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -432,6 +494,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.SimpleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,8 +505,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X7GLF7Z6BV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SimpleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -453,6 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.SimpleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

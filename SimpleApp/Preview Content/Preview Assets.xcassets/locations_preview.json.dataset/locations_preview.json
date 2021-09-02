@@ -1,0 +1,39 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Выборгский замок",
+            "imagePath": "viipuri_castle.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Библиотека Аалто",
+            "imagePath": "viipuri_aalto.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Круглая башня",
+            "imagePath": "viipuri_tower.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Парк Монрепо",
+            "imagePath": "viipuri_monrepo.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Усадьба бюргера",
+            "imagePath": "viipuri_medival_house.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Костёл Св. Гиацинта",
+            "imagePath": "viipuri_knight_house.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Башня Ратуши",
+            "imagePath": "viipuri_watchtower.jpg"
+        }
+    ]
+}
