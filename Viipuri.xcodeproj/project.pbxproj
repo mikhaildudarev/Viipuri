@@ -12,12 +12,12 @@
 		B14D277D26E1301700242AEF /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D277C26E1301700242AEF /* LocationsList.swift */; };
 		B14D278226E1377500242AEF /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D278126E1377500242AEF /* LocationCell.swift */; };
 		B14D278526E1430100242AEF /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D278426E1430100242AEF /* ImageProvider.swift */; };
-		B153F25226DE847F00A0B86F /* SimpleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F25126DE847F00A0B86F /* SimpleApp.swift */; };
+		B153F25226DE847F00A0B86F /* Viipuri.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F25126DE847F00A0B86F /* Viipuri.swift */; };
 		B153F25426DE847F00A0B86F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F25326DE847F00A0B86F /* ContentView.swift */; };
 		B153F25626DE848100A0B86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B153F25526DE848100A0B86F /* Assets.xcassets */; };
 		B153F25926DE848100A0B86F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B153F25826DE848100A0B86F /* Preview Assets.xcassets */; };
-		B153F26426DE848100A0B86F /* SimpleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F26326DE848100A0B86F /* SimpleAppTests.swift */; };
-		B153F26F26DE848100A0B86F /* SimpleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F26E26DE848100A0B86F /* SimpleAppUITests.swift */; };
+		B153F26426DE848100A0B86F /* ViipuriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F26326DE848100A0B86F /* ViipuriTests.swift */; };
+		B153F26F26DE848100A0B86F /* ViipuriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F26E26DE848100A0B86F /* ViipuriUITests.swift */; };
 		B153F27D26DEAB8800A0B86F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153F27C26DEAB8800A0B86F /* ViewModel.swift */; };
 		B18946EB26E14B650092ECF7 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18946EA26E14B650092ECF7 /* ViewModelTests.swift */; };
 		B18946ED26E168CE0092ECF7 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18946EC26E168CE0092ECF7 /* ImageCache.swift */; };
@@ -46,17 +46,17 @@
 		B14D277C26E1301700242AEF /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
 		B14D278126E1377500242AEF /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		B14D278426E1430100242AEF /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
-		B153F24E26DE847F00A0B86F /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B153F25126DE847F00A0B86F /* SimpleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleApp.swift; sourceTree = "<group>"; };
+		B153F24E26DE847F00A0B86F /* Viipuri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viipuri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B153F25126DE847F00A0B86F /* Viipuri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viipuri.swift; sourceTree = "<group>"; };
 		B153F25326DE847F00A0B86F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B153F25526DE848100A0B86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B153F25826DE848100A0B86F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B153F25A26DE848100A0B86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B153F25F26DE848100A0B86F /* SimpleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B153F26326DE848100A0B86F /* SimpleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAppTests.swift; sourceTree = "<group>"; };
+		B153F25F26DE848100A0B86F /* ViipuriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViipuriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B153F26326DE848100A0B86F /* ViipuriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViipuriTests.swift; sourceTree = "<group>"; };
 		B153F26526DE848100A0B86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B153F26A26DE848100A0B86F /* SimpleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B153F26E26DE848100A0B86F /* SimpleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAppUITests.swift; sourceTree = "<group>"; };
+		B153F26A26DE848100A0B86F /* ViipuriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViipuriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B153F26E26DE848100A0B86F /* ViipuriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViipuriUITests.swift; sourceTree = "<group>"; };
 		B153F27026DE848100A0B86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B153F27C26DEAB8800A0B86F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		B18946EA26E14B650092ECF7 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
@@ -109,9 +109,9 @@
 		B153F24526DE847F00A0B86F = {
 			isa = PBXGroup;
 			children = (
-				B153F25026DE847F00A0B86F /* SimpleApp */,
-				B153F26226DE848100A0B86F /* SimpleAppTests */,
-				B153F26D26DE848100A0B86F /* SimpleAppUITests */,
+				B153F25026DE847F00A0B86F /* Viipuri */,
+				B153F26226DE848100A0B86F /* ViipuriTests */,
+				B153F26D26DE848100A0B86F /* ViipuriUITests */,
 				B153F24F26DE847F00A0B86F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,17 +119,17 @@
 		B153F24F26DE847F00A0B86F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B153F24E26DE847F00A0B86F /* SimpleApp.app */,
-				B153F25F26DE848100A0B86F /* SimpleAppTests.xctest */,
-				B153F26A26DE848100A0B86F /* SimpleAppUITests.xctest */,
+				B153F24E26DE847F00A0B86F /* Viipuri.app */,
+				B153F25F26DE848100A0B86F /* ViipuriTests.xctest */,
+				B153F26A26DE848100A0B86F /* ViipuriUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B153F25026DE847F00A0B86F /* SimpleApp */ = {
+		B153F25026DE847F00A0B86F /* Viipuri */ = {
 			isa = PBXGroup;
 			children = (
-				B153F25126DE847F00A0B86F /* SimpleApp.swift */,
+				B153F25126DE847F00A0B86F /* Viipuri.swift */,
 				B153F27E26DEABCC00A0B86F /* Views */,
 				B153F27F26DEABDB00A0B86F /* ViewModels */,
 				B11BB42C26E10D4C00290F8C /* Models */,
@@ -138,7 +138,7 @@
 				B153F25A26DE848100A0B86F /* Info.plist */,
 				B153F25726DE848100A0B86F /* Preview Content */,
 			);
-			path = SimpleApp;
+			path = Viipuri;
 			sourceTree = "<group>";
 		};
 		B153F25726DE848100A0B86F /* Preview Content */ = {
@@ -149,23 +149,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B153F26226DE848100A0B86F /* SimpleAppTests */ = {
+		B153F26226DE848100A0B86F /* ViipuriTests */ = {
 			isa = PBXGroup;
 			children = (
-				B153F26326DE848100A0B86F /* SimpleAppTests.swift */,
+				B153F26326DE848100A0B86F /* ViipuriTests.swift */,
 				B18946EA26E14B650092ECF7 /* ViewModelTests.swift */,
 				B153F26526DE848100A0B86F /* Info.plist */,
 			);
-			path = SimpleAppTests;
+			path = ViipuriTests;
 			sourceTree = "<group>";
 		};
-		B153F26D26DE848100A0B86F /* SimpleAppUITests */ = {
+		B153F26D26DE848100A0B86F /* ViipuriUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B153F26E26DE848100A0B86F /* SimpleAppUITests.swift */,
+				B153F26E26DE848100A0B86F /* ViipuriUITests.swift */,
 				B153F27026DE848100A0B86F /* Info.plist */,
 			);
-			path = SimpleAppUITests;
+			path = ViipuriUITests;
 			sourceTree = "<group>";
 		};
 		B153F27E26DEABCC00A0B86F /* Views */ = {
@@ -189,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B153F24D26DE847F00A0B86F /* SimpleApp */ = {
+		B153F24D26DE847F00A0B86F /* Viipuri */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B153F27326DE848100A0B86F /* Build configuration list for PBXNativeTarget "SimpleApp" */;
+			buildConfigurationList = B153F27326DE848100A0B86F /* Build configuration list for PBXNativeTarget "Viipuri" */;
 			buildPhases = (
 				B153F24A26DE847F00A0B86F /* Sources */,
 				B153F24B26DE847F00A0B86F /* Frameworks */,
@@ -201,14 +201,14 @@
 			);
 			dependencies = (
 			);
-			name = SimpleApp;
+			name = Viipuri;
 			productName = SimpleApp;
-			productReference = B153F24E26DE847F00A0B86F /* SimpleApp.app */;
+			productReference = B153F24E26DE847F00A0B86F /* Viipuri.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B153F25E26DE848100A0B86F /* SimpleAppTests */ = {
+		B153F25E26DE848100A0B86F /* ViipuriTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B153F27626DE848100A0B86F /* Build configuration list for PBXNativeTarget "SimpleAppTests" */;
+			buildConfigurationList = B153F27626DE848100A0B86F /* Build configuration list for PBXNativeTarget "ViipuriTests" */;
 			buildPhases = (
 				B153F25B26DE848100A0B86F /* Sources */,
 				B153F25C26DE848100A0B86F /* Frameworks */,
@@ -219,14 +219,14 @@
 			dependencies = (
 				B153F26126DE848100A0B86F /* PBXTargetDependency */,
 			);
-			name = SimpleAppTests;
+			name = ViipuriTests;
 			productName = SimpleAppTests;
-			productReference = B153F25F26DE848100A0B86F /* SimpleAppTests.xctest */;
+			productReference = B153F25F26DE848100A0B86F /* ViipuriTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B153F26926DE848100A0B86F /* SimpleAppUITests */ = {
+		B153F26926DE848100A0B86F /* ViipuriUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B153F27926DE848100A0B86F /* Build configuration list for PBXNativeTarget "SimpleAppUITests" */;
+			buildConfigurationList = B153F27926DE848100A0B86F /* Build configuration list for PBXNativeTarget "ViipuriUITests" */;
 			buildPhases = (
 				B153F26626DE848100A0B86F /* Sources */,
 				B153F26726DE848100A0B86F /* Frameworks */,
@@ -237,9 +237,9 @@
 			dependencies = (
 				B153F26C26DE848100A0B86F /* PBXTargetDependency */,
 			);
-			name = SimpleAppUITests;
+			name = ViipuriUITests;
 			productName = SimpleAppUITests;
-			productReference = B153F26A26DE848100A0B86F /* SimpleAppUITests.xctest */;
+			productReference = B153F26A26DE848100A0B86F /* ViipuriUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B153F24926DE847F00A0B86F /* Build configuration list for PBXProject "SimpleApp" */;
+			buildConfigurationList = B153F24926DE847F00A0B86F /* Build configuration list for PBXProject "Viipuri" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -277,9 +277,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B153F24D26DE847F00A0B86F /* SimpleApp */,
-				B153F25E26DE848100A0B86F /* SimpleAppTests */,
-				B153F26926DE848100A0B86F /* SimpleAppUITests */,
+				B153F24D26DE847F00A0B86F /* Viipuri */,
+				B153F25E26DE848100A0B86F /* ViipuriTests */,
+				B153F26926DE848100A0B86F /* ViipuriUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +323,7 @@
 				B14D278526E1430100242AEF /* ImageProvider.swift in Sources */,
 				B14D278226E1377500242AEF /* LocationCell.swift in Sources */,
 				B11BB42B26E0F67800290F8C /* LocationsFetcher.swift in Sources */,
-				B153F25226DE847F00A0B86F /* SimpleApp.swift in Sources */,
+				B153F25226DE847F00A0B86F /* Viipuri.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B18946EB26E14B650092ECF7 /* ViewModelTests.swift in Sources */,
-				B153F26426DE848100A0B86F /* SimpleAppTests.swift in Sources */,
+				B153F26426DE848100A0B86F /* ViipuriTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B153F26F26DE848100A0B86F /* SimpleAppUITests.swift in Sources */,
+				B153F26F26DE848100A0B86F /* ViipuriUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,12 +349,12 @@
 /* Begin PBXTargetDependency section */
 		B153F26126DE848100A0B86F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B153F24D26DE847F00A0B86F /* SimpleApp */;
+			target = B153F24D26DE847F00A0B86F /* Viipuri */;
 			targetProxy = B153F26026DE848100A0B86F /* PBXContainerItemProxy */;
 		};
 		B153F26C26DE848100A0B86F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B153F24D26DE847F00A0B86F /* SimpleApp */;
+			target = B153F24D26DE847F00A0B86F /* Viipuri */;
 			targetProxy = B153F26B26DE848100A0B86F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -483,16 +483,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Viipuri/Preview Content\"";
 				DEVELOPMENT_TEAM = X7GLF7Z6BV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SimpleApp/Info.plist;
+				INFOPLIST_FILE = Viipuri/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.SimpleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.Viipuri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -507,16 +507,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Viipuri/Preview Content\"";
 				DEVELOPMENT_TEAM = X7GLF7Z6BV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SimpleApp/Info.plist;
+				INFOPLIST_FILE = Viipuri/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.SimpleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.Viipuri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -530,18 +530,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleAppTests/Info.plist;
+				INFOPLIST_FILE = Viipuri/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.SimpleAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.ViipuriTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleApp.app/SimpleApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viipuri.app/Viipuri";
 			};
 			name = Debug;
 		};
@@ -551,18 +551,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleAppTests/Info.plist;
+				INFOPLIST_FILE = Viipuri/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.SimpleAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.ViipuriTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleApp.app/SimpleApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viipuri.app/Viipuri";
 			};
 			name = Release;
 		};
@@ -571,17 +571,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleAppUITests/Info.plist;
+				INFOPLIST_FILE = Viipuri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.SimpleAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.ViipuriUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimpleApp;
+				TEST_TARGET_NAME = Viipuri;
 			};
 			name = Debug;
 		};
@@ -590,24 +590,24 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleAppUITests/Info.plist;
+				INFOPLIST_FILE = Viipuri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.SimpleAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhaildudarev.ViipuriUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimpleApp;
+				TEST_TARGET_NAME = Viipuri;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B153F24926DE847F00A0B86F /* Build configuration list for PBXProject "SimpleApp" */ = {
+		B153F24926DE847F00A0B86F /* Build configuration list for PBXProject "Viipuri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B153F27126DE848100A0B86F /* Debug */,
@@ -616,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B153F27326DE848100A0B86F /* Build configuration list for PBXNativeTarget "SimpleApp" */ = {
+		B153F27326DE848100A0B86F /* Build configuration list for PBXNativeTarget "Viipuri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B153F27426DE848100A0B86F /* Debug */,
@@ -625,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B153F27626DE848100A0B86F /* Build configuration list for PBXNativeTarget "SimpleAppTests" */ = {
+		B153F27626DE848100A0B86F /* Build configuration list for PBXNativeTarget "ViipuriTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B153F27726DE848100A0B86F /* Debug */,
@@ -634,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B153F27926DE848100A0B86F /* Build configuration list for PBXNativeTarget "SimpleAppUITests" */ = {
+		B153F27926DE848100A0B86F /* Build configuration list for PBXNativeTarget "ViipuriUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B153F27A26DE848100A0B86F /* Debug */,
