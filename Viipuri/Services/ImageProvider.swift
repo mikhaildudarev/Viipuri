@@ -22,7 +22,7 @@ protocol ImageProvider {
     func imageForPath(_ path: String) -> Image?
 }
 
-protocol ImageProviderDelegate: AnyObject {
+protocol ImageProviderDelegate: class {
     func imageProviderDidLoadImageForPath(_ path: String)
 }
 
